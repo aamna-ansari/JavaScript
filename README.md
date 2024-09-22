@@ -8,4 +8,3 @@ Welcome to Chai-Aur-JavaScript, a coding practice repository designed to enhance
 ### 01_basics
 
 #### 01_variables.js
-- Added variable declaration examples for better understanding.
