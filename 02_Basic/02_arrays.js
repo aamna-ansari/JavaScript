@@ -1,4 +1,4 @@
-// const wwe_superstars = ["Seth Rollins", "Brock Lesnar", "Roman Reigns"];
+// let wwe_superstars = ["Seth Rollins", "Brock Lesnar", "Roman Reigns"];
 
 // // // console.log(wwe_superstars);
 
@@ -39,10 +39,10 @@ console.log(all_stars);
 // console.log(flattedArr);
 
 
-// let Q = Array.isArray("Asad")
+// let Q = Array.isArray("AaMna")
 // console.log(Q);
 
-// let Convert = Array.from("Asad")
+// let Convert = Array.from("AaMna")
 // console.log(Convert);
 
 
