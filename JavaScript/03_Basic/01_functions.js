@@ -58,3 +58,27 @@ function handleObject(anyobject){
     console.log(`UserName is ${anyobject.username} and price is ${anyobject.price}`);  
 }
 handleObject(user)
+
+
+// HandleObject(user)
+// OR we can also pass object like this 
+// HandleObject({
+//     username: "AaMna",
+//     age: 24
+// }
+
+// )
+
+let myNewArr = [200, 400, 100, 600]
+let myNewArr1 = ["AnSari", "AaMna"]
+
+function getSecondValue(anyArr) {
+    return console.log(anyArr[1])
+}
+
+
+// getSecondValue(myNewArr) OR Give Array Directly
+// getSecondValue([200, 400, 100, 600])
+
+// getSecondValue(myNewArr1) OR Give Array Directly
+// getSecondValue(["AnSari", "AaMna"])
