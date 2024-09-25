@@ -34,3 +34,27 @@ function loginUserMessage(userName = "") {
 
 console.log(loginUserMessage("AaMna")); // output: Hey Asad, Welcome Back
 console.log(loginUserMessage());  //output: Hey , Welcome Back
+
+
+
+/////////   L E T's   C O N T I N U E        ///////////
+
+
+// rest operator // to pass the multiply value by using this operator
+
+function calCartPrice(...num1){
+    return num1
+}
+console.log(calCartPrice(200, 400, 500));
+
+// object 
+
+let user = {
+    username: 'AaMna',
+    price : 0
+}
+
+function handleObject(anyobject){
+    console.log(`UserName is ${anyobject.username} and price is ${anyobject.price}`);  
+}
+handleObject(user)
