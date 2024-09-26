@@ -121,4 +121,6 @@ Welcome to Chai-Aur-JavaScript, a coding practice repository designed to enhance
 #### DOM Diagram.png
 - Included a visual representation of the DOM structure for reference and learning.
 
+#### DOM1.PNG & DOM2.PNG
+- Output 
 ---
