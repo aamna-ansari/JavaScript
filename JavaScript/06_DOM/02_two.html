@@ -17,10 +17,43 @@
     </div>
 
     <script>
-    const parent = document.querySelector('.parent')
-    console.log(parent)
-    console.log(parent.children)
-    console.log(parent.children[5])
+    const parent = document.querySelector('.parent'); 
+    console.log(parent); 
+    console.log(parent.children);
+    console.log(parent.children[5]);
+
+    for (let i = 0; i < parent.children.length; i++){
+        console.log(parent.children[i].innerHTML); 
+    }
+    // parent.children[1].style.color = 'orange'
+    // console.log(parent)
+
+
+    // First child 
+    parent.children[1].style.color = 'orange'
+    console.log(parent.firstElementChild)
+    let dayOne = document.querySelector('.day')
+// console.log(dayOne)
+    console.log(dayOne.parentElement);
+
+
+
+    // To target parent element from child element
+    // console.log( 
+    //     document.querySelector('.day').parentElement)
+
+    // To target sibling element from another sibling element
+
+    //    console.log( 
+    //  document.querySelector('.day').nextElementSibling)
+
+    // Gives all child nodes of a element
+    // console.log(parent.childNodes);
+    console.log(parent.childNodes[0]);
+    console.log(parent.childNodes[1]); //and so on
+
+
+
     </script>
 </body>
 </html>
