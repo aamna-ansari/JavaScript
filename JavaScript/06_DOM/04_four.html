@@ -32,6 +32,19 @@
         addOptiLanguage("Ruby")
         addOptiLanguage("Java")
 
+        // ------------- EDIT VALUE-------------
+
+        let editValue = document.querySelector('li:nth-child(4)');
+         // editValue.innerHTML = "C#" (not optimized approach)
+
+        let newLi = document.createElement('li');
+        newLi.textContent = 'TypeScript'
+        editValue.replaceWith(newLi)
+
+        // -------- REMOVE ---------------
+    let lastLang = document.querySelector('li:last-child')
+    lastLang.remove()
+
 
 </script>
 
