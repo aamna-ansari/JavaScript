@@ -124,3 +124,9 @@ Welcome to Chai-Aur-JavaScript, a coding practice repository designed to enhance
 #### DOM1.PNG & DOM2.PNG
 - Output 
 ---
+
+### 07_projects
+
+#### 01_project1
+- **Name:** Color Switcher
+- **Description:** Implement a color switcher that allows users to change the background color dynamically.
