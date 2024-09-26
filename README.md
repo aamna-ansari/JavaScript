@@ -103,3 +103,22 @@ Welcome to Chai-Aur-JavaScript, a coding practice repository designed to enhance
 - Consolidated all loop types, including 'for', 'while', 'do-while', 'for...in', 'for...of', 'forEach', 'map', and 'filter' for comprehensive loop practice.
 
 ---
+
+### 06_DOM
+
+#### 01_one.html
+- Added the initial HTML structure for practicing DOM manipulation.
+
+#### 02_two.html
+- Created a new HTML file to explore additional DOM manipulation scenarios.
+
+#### 03_three.html
+- Implemented HTML code for further DOM manipulation exercises.
+
+#### 04_four.html
+- Added HTML content to extend the practice of working with the Document Object Model (DOM).
+
+#### DOM Diagram.png
+- Included a visual representation of the DOM structure for reference and learning.
+
+---
