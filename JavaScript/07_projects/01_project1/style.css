@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(250, 182, 94);
+    text-align: center;
+}
+
+.canvas{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button{
+    padding: 15px 15px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+
+#gray {
+    background-color: grey;
+}
+
+#white {
+    background-color: white;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#yellow {
+    background-color: yellow;
+}
