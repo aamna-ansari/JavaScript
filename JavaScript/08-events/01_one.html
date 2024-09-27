@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Events</title>
+    <style>
+        body {
+            background-color: #212121;
+            color: #f0f8ff;
+        }
+
+        li {
+            list-style: none;
+            
+        }
+        #images{
+            display: flex;
+            justify-content: space-evenly;
+
+        }
+
+        img {
+            height: 10vw;
+            border: 2px solid;
+            
+        }
+
+        a {
+            color: aliceblue;
+            font-family: 'poppins';
+            font-weight: 700;
+        }
+
+    </style>
+</head>
+<body>
+    <h2>Amazing Images</h2>
+    <div>
+        <ul id="images">
+            <li><img src="./cena.png" alt="john cena"></li>
+            <li><img src="./lesnar.png" alt="brock lesnar" id="lesnar"></li>
+            <!-- <li><img src="./lesnar.png" alt="brock lesnar" id="lesnar" onclick="alert(`lesnar`)"></li> -->
+            <!-- onclick not recommended -->
+            <li><img src="./masha.png" alt="masha"></li>
+            <li><img src="./masha2.png" alt="masha2"></li>
+            <li><img src="./cena.png" alt="john cena"></li>
+            <li><a href="https://google.com" id="google">Google</a></li>
+        </ul>
+    </div>
+</body>
+<script>
+    // document.getElementById('lesnar').onclick = function () {
+    //     alert(`lesnar clicked`)
+    // }  // not recommended because it gives less features
+
+
+// third and optimzation approach
+// document.getElementById ('lesnar').addEventListener('click', function(){
+//     alert(`lesnar clicked`)
+// }, false) //third parameter is already false by default
+
+
+// ----------EVENT OBJECT --------------- 'e'
+// document.getElementById('lesnar').addEventListener('click', function(e){
+//     console.log(e)
+// })
+
+
+ // we get following methods with event object eg. "e"
+    // type, timestamp, preventDefault, target, toElement, srcElement, currentTarget, clientX, clientY, screenX, screenY,altkey, controlKey, shiftkey, keyCode
+
+     document.getElementById('images').addEventListener('click',
+        function (e) {
+            console.log("Clicked inside the ul");
+
+        }, false) // by default is also false
+
+    document.getElementById('lesnar').addEventListener('click', function(){
+        console.log('lesnar clicked');
+        
+    }, false)
+
+</script>
+
+</html>
