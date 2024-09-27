@@ -130,3 +130,7 @@ Welcome to Chai-Aur-JavaScript, a coding practice repository designed to enhance
 #### 01_project1
 - **Name:** Color Switcher
 - **Description:** Implement a color switcher that allows users to change the background color dynamically.
+
+#### 02_project2
+- **Name:** BMI Calculator
+- **Description:** Develop a BMI (Body Mass Index) calculator to help users calculate their BMI based on input height and weight.
