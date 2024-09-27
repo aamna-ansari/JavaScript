@@ -134,3 +134,7 @@ Welcome to Chai-Aur-JavaScript, a coding practice repository designed to enhance
 #### 02_project2
 - **Name:** BMI Calculator
 - **Description:** Develop a BMI (Body Mass Index) calculator to help users calculate their BMI based on input height and weight.
+
+#### 03_project3
+- **Name:** Digital Clock
+- **Description:** Create a digital clock that displays the current time and updates in real-time.
