@@ -138,3 +138,7 @@ Welcome to Chai-Aur-JavaScript, a coding practice repository designed to enhance
 #### 03_project3
 - **Name:** Digital Clock
 - **Description:** Create a digital clock that displays the current time and updates in real-time.
+
+#### 04_project4
+- **Name:** Number Guessing Game
+- **Description:** Build a number guessing game where users try to guess a randomly generated number within a specified range.
