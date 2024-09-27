@@ -1,7 +1,5 @@
 * {
-    font-family: 'poppins';
-
-
+    font-family: 'Gill Sans MT';
 }
 
 body {
@@ -19,7 +17,6 @@ body {
 }
 
 form {
-    /* background-color: green; */
     text-align: center;
     padding-top: 5vh;
 
