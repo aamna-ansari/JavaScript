@@ -67,21 +67,38 @@
         <button class="button">Show</button>
     </div>
 </body>
+
+
 <script>
+    let card = document.querySelector('.card');
+    let img = document.querySelector('.img');
+    let heading = document.querySelector('#heading');
+    let followers = document.querySelector('.followers');
+    let button = document.querySelector('.button');
+    
+    button.addEventListener('click', myData);
+
     function myData (){
         let myGithubApi = 'https://api.github.com/users/aamna-ansari'
         let xhr = new XMLHttpRequest();
-        xhr.open('GET'. myGithubApi);
+        xhr.open('GET', myGithubApi);
 
         xhr.onreadystatechange = function(){
             if (xhr.readyState === 4){
                 let data = JSON.parse(xhr.responseText);
-                console.log();  
+                updateCard(data);
             }
         };
         xhr.send()
         
-
     }
+
+    function updateCard(data) {
+                img.src = data.avatar_url || '';
+                heading.innerText = data.name || '';
+                followers.innerHTML = `<strong>Github Followers:</strong> ${data.followers || 0}`;
+            }
+
+    
 </script>
 </html>
