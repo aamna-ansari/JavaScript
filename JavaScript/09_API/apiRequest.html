@@ -13,10 +13,25 @@
 </head>
 <body>
     <script>
-        let requestUrL = 'https://api.github.com/users/aamna-ansari';
-        let XHR = new XMLHttpRequest();
-        XHR.open('GET', requestUrl)
+        let myGhApi = 'https://api.github.com/users/aamna-ansari'
+        let XHR = new XMLHttpRequest()
+        console.log(XHR.readyState);
+        XHR.open('GET', myGhApi);
+        console.log(XHR.readyState);
+        XHR.onreadystatechange = function(){
+        console.log(XHR.readyState);
+        if (XHR.readyState === 4){
+            let data = JSON.parse(this.responseText)
+            console.log(typeof data);
+            console.log(data.followers);
+            console.log(data.name);
+            console.log(data.avatar_url);
+            
+            
+        }    
+        }
         XHR.send()
+
     </script>
 </body>
 </html>
