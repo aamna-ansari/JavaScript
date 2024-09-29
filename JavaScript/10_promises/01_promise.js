@@ -12,3 +12,13 @@ promiseOne.then(function(){
     console.log("Promise Created");
     
 })
+
+
+// WITHOUT VARIABLE
+
+new Promise(function(resolve, reject){
+    console.log("Its Second method of promise");
+    resolve()
+}).then(function(){
+    console.log("Created")
+})
