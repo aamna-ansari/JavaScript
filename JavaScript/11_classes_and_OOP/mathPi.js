@@ -5,3 +5,13 @@
 
 let Descripter = Object.getOwnPropertyDescriptor(Math, 'PI')
 console.log(Descripter);
+
+let user = {
+    firstName : 'AaMna',
+    lastName: 'AnSari',
+    email : 'aamna@gmail.com',
+    password : '1234'
+
+}
+
+console.log(user);
