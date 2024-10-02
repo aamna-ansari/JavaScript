@@ -151,3 +151,29 @@ Welcome to Chai-Aur-JavaScript, a coding practice repository designed to enhance
 - **Name:** Key Magic
 - **Description:** Create a project that prints the name and key code of a pressed key when any key is pressed on the keyboard.
 ---
+
+### 08_events
+
+#### event_basics.js
+- **Name:** Event Basics JavaScript
+- **Description:** Basic JavaScript file for practicing event handling.
+
+#### 01_one.html
+- **Name:** Event Practice 1
+- **Description:** HTML file for practicing JavaScript events.
+
+#### 02_two.html
+- **Name:** Cena Event
+- **Description:** HTML file featuring an image of John Cena, linked to an event in the JavaScript file.
+
+#### 03_three.html
+- **Name:** Lesnar Event
+- **Description:** HTML file featuring an image of Brock Lesnar, linked to an event in the JavaScript file.
+
+#### Images:
+- **cena.png:** Image of John Cena used in Cena Event.
+- **lesnar.png:** Image of Brock Lesnar used in Lesnar Event.
+- **masha.png:** Image of masha (description needed).
+- **masha2.png:** Image of masha (description needed).
+
+---
