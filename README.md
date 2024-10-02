@@ -189,3 +189,12 @@ Welcome to Chai-Aur-JavaScript, a coding practice repository designed to enhance
 - **Description:** HTML file showcasing an assignment or project related to making asynchronous requests using XHR.
 
 ---
+
+### 10_promises
+
+#### 01_promises.js
+- **Name:** Promises Implementation
+- **Description:** JavaScript file implementing promise functionality in depth.
+
+
+---
