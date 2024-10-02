@@ -230,5 +230,4 @@ Welcome to Chai-Aur-JavaScript, a coding practice repository designed to enhance
 #### staticProp.js
 - **Name:** Static Property JavaScript
 - **Description:** Usage of static properties in classes.
-
 ---

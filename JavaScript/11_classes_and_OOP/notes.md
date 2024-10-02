@@ -13,8 +13,6 @@ eg,
 # Parts of OOP
 Object literal (literally objects)
 
-
-
 - Constructor function
 - Prototype
 - Classes
