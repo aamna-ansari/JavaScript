@@ -231,3 +231,12 @@ Welcome to Chai-Aur-JavaScript, a coding practice repository designed to enhance
 - **Name:** Static Property JavaScript
 - **Description:** Usage of static properties in classes.
 ---
+
+## Getting Started
+
+To make the most out of this repository, follow these steps:
+
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/aamna-ansari/JavaScript.git
