@@ -142,3 +142,12 @@ Welcome to Chai-Aur-JavaScript, a coding practice repository designed to enhance
 #### 04_project4
 - **Name:** Number Guessing Game
 - **Description:** Build a number guessing game where users try to guess a randomly generated number within a specified range.
+
+#### 05_project5
+- **Name:** Background Color Changer
+- **Description:** Implement a feature where clicking a "Start" button changes the background color of the body each time.
+
+#### 06_project6
+- **Name:** Key Magic
+- **Description:** Create a project that prints the name and key code of a pressed key when any key is pressed on the keyboard.
+---
