@@ -177,3 +177,15 @@ Welcome to Chai-Aur-JavaScript, a coding practice repository designed to enhance
 - **masha2.png:** Image of masha (description needed).
 
 ---
+
+### 09_API
+
+#### apiRequest.html
+- **Name:** API Request
+- **Description:** HTML file demonstrating the usage of XHR for making asynchronous requests to an API.
+
+#### apiRequestAssignment.html
+- **Name:** API Request Assignment
+- **Description:** HTML file showcasing an assignment or project related to making asynchronous requests using XHR.
+
+---
