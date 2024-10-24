@@ -2,17 +2,17 @@ const myName = "AaMna"
 
 const repoCount = 50;
 
-// console.log(`My Name is ${myName} and my repocount is ${repoCount}`);
+console.log(`My Name is ${myName} and my repocount is ${repoCount}`);
 
-const CityName = new String('Islamabad')
+const CityName = new String('Faisalabad')
 
 // console.log (CityName.indexOf('am'));
-// console.log (CityName.includes ('Islamabad'))
+// console.log (CityName.includes ('Faisalabad'))
 
-// if ((CityName.includes ('Islamabad'))) {
-//     console.log("City Is Islamabad");
+// if ((CityName.includes ('Faisalabad'))) {
+//     console.log("City Is Faisalabad");
 // } else {
-//     "City is not Islamabad"
+//     "City is not Faisalabad"
 // }
 
 

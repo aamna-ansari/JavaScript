@@ -18,14 +18,14 @@ const cricketers = ["Jos Buttler", "Babar Azam", "Shahid Afridi", "Shan Masood"]
 const footballers = ["Cristiano Ronaldo", "Messi", "Salaah"]
 
 
-let all_stars = wwe_superstars.concat(cricketers,footballers)
-console.log(all_stars);
+// let all_stars = wwe_superstars.concat(cricketers,footballers)
+// console.log(all_stars);
 // wwe_superstars.push(cricketers) //adds array as element, inside an array
 // console.log(wwe_superstars);
 
 
-// let all_stars = [...cricketers, ...wwe_superstars, ...footballers] //spread operator
-// console.log(all_stars);
+let all_stars = [...cricketers, ...wwe_superstars, ...footballers] //spread operator
+console.log(all_stars);
 
 // console.log(`my favorite cricketer is ${cricketers[3]}`);
 // hehe, Yeshhhhhhhhh
@@ -39,8 +39,8 @@ console.log(all_stars);
 // console.log(flattedArr);
 
 
-// let Q = Array.isArray("AaMna")
-// console.log(Q);
+let Q = Array.isArray("AaMna")
+console.log(Q);
 
 // let Convert = Array.from("AaMna")
 // console.log(Convert);
