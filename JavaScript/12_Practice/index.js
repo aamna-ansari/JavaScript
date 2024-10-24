@@ -72,3 +72,15 @@ function greet(name) {
   }
   
   console.log(processUserInput(greet));
+
+
+//   Array 
+
+let arr1 = [1,2, 3, 4 ,5]
+console.log(arr1);
+
+let a = new Array(1, 2, 3, 4 ,5)
+console.log(a);
+
+console.log(a instanceof Array);
+console.log(arr1 === Object(Array));
