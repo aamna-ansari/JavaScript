@@ -17,3 +17,15 @@ let number = [1,2,3,4,5]
 let number3 = number.reduce((accumulator, current) => accumulator + current, 0);
 console.log(number3);
 
+
+
+// Defining functions
+
+function myFunction(num){
+    return num * 2
+}
+// call function 
+
+console.log(myFunction(6))
+
+
