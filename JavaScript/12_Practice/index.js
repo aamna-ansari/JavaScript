@@ -28,4 +28,13 @@ function myFunction(num){
 
 console.log(myFunction(6))
 
+// Function Expression
+
+let nyfunction = function (name){
+    return (`Hi ${name} i'm Expression Fuction`);
+    
+}
+console.log(nyfunction('AaMna'));
+
+
 
