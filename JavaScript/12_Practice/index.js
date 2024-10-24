@@ -59,3 +59,16 @@ const result = (function(a, b) {
   })(5, 10);
   
   console.log(result);
+
+//   Callback Function
+
+function greet(name) {
+    return ('Hello, ' + name + '!');
+  }
+  
+  function processUserInput(callback) {
+    let name = 'Alice'; 
+    return callback(name); 
+  }
+  
+  console.log(processUserInput(greet));
