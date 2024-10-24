@@ -45,3 +45,17 @@ let arrowFunction = (name, age, email) => {
 console.log(arrowFunction('AaMna','25', 'theaamnansari@gmail.com '));
 
 // IIFE (immediately  invoking Function Expression)
+
+(function myFunction1(num){
+    return num * 2
+})
+
+console.log(myFunction(5));
+
+
+//  IIFE with Parameters
+const result = (function(a, b) {
+    return a + b;
+  })(5, 10);
+  
+  console.log(result);
