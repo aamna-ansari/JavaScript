@@ -36,5 +36,12 @@ let nyfunction = function (name){
 }
 console.log(nyfunction('AaMna'));
 
+// Arrow functions 
 
+let arrowFunction = (name, age, email) => {
+    return (`Hi, I'm ${name}. My age is ${age} and My E-mail address is${email}`)
+}
 
+console.log(arrowFunction('AaMna','25', 'theaamnansari@gmail.com '));
+
+// IIFE (immediately  invoking Function Expression)
