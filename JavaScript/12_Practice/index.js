@@ -84,3 +84,17 @@ console.log(a);
 
 console.log(a instanceof Array);
 console.log(arr1 === Object(Array));
+
+
+// Promise
+// Step 1 => Creating PRomise
+let pro1 =  new Promise((resolve, reject)=>{
+  let myName = true;
+  if (myName){
+    resolve('Promise Resolve');
+  }
+  else{
+    reject("Promise Reject")
+  }
+});
+
