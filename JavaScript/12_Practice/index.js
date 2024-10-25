@@ -89,7 +89,7 @@ console.log(arr1 === Object(Array));
 // Promise
 // Step 1 => Creating PRomise
 let pro1 =  new Promise((resolve, reject)=>{
-  let myName = true;
+  const myName = true;
   if (myName){
     resolve('Promise Resolve');
   }
@@ -98,3 +98,17 @@ let pro1 =  new Promise((resolve, reject)=>{
   }
 });
 
+// consuming Promise
+
+pro1
+
+.then(result => {
+  console.log(result);
+  return "Next operation"; // Return a new value
+})
+.then(nextResult => {
+  console.log(nextResult); // "Next operation"
+})
+.catch(error => {
+  console.error(error);
+});
