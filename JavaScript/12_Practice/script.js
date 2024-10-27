@@ -1,26 +1,26 @@
 //  Statement
-y = 10;
+// y = 10;
 
 // expression 
- 5 + 1;
+//  5 + 1;
 
 
 //  prototype 
 
 // create a function
-function Person(name, age){
-    this.name = name;
-    this.age = age;
-}
+// function Person(name, age){
+//     this.name = name;
+//     this.age = age;
+// }
 
-Person.prototype.greet = function(){
-    return('Welocome to the prototype'); 
-}
+// Person.prototype.greet = function(){
+//     return('Welocome to the prototype'); 
+// }
 
-let person1 = new Person('AaMna', '24')
+// let person1 = new Person('AaMna', '24')
 
-console.log(person1.greet());
- person1.greet();
+// console.log(person1.greet());
+//  person1.greet();
 
 
 //  event practice 
@@ -46,13 +46,23 @@ console.log(person1.greet());
 
 
 
-function anchorTag(event){
-    let fanchor = document.getElementById("fanchor");
-    event.preventDefault();
-    fanchor.textContent =  'Click Done'
+// function anchorTag(event){
+//     let fanchor = document.getElementById("fanchor");
+//     event.preventDefault();
+//     fanchor.textContent =  'Click Done'
+// }
+// let fanchor = document.getElementById("fanchor");
+// fanchor.addEventListener('click', anchorTag);
+
+
+
+// Avoiding to much event listener
+
+let paras = document.querySelectorAll('p');
+
+for(let i = 0; i < paras.length; i++){
+    let para = paras[i];
+    para.addEventListener('click', function(){
+        console.log('You have clicked on Paragraph #' + (i + 1));
+    });
 }
-let fanchor = document.getElementById("fanchor");
-fanchor.addEventListener('click', anchorTag);
-
-
-
