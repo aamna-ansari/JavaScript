@@ -68,7 +68,7 @@ let paras = document.querySelectorAll('p');
 // }
 
 function addPara(event){
-    alert('You Have Clicked on' + event.target.textContent)
+    alert('You Have Clicked on ' + event.target.textContent)
 }
 let myDiv = document.getElementById('wrapper');
 
