@@ -31,17 +31,28 @@ console.log(person1.greet());
 
 // create a function 
 
-function clickMe(){
-    let myPara = document.getElementById ('myPara');
-    myPara.textContent = 'AaMna AnSari'
-}
+// function clickMe(){
+//     let myPara = document.getElementById ('myPara');
+//     myPara.textContent = 'AaMna AnSari'
+// }
 
-let myPara = document.getElementById('myPara')
+// let myPara = document.getElementById('myPara')
 
-myPara.addEventListener("click", clickMe)
+// myPara.addEventListener("click", clickMe)
+
+
 // FOR REMOVE 
 // myPara.removeEventListener("click", clickMe)
 
+
+
+function anchorTag(event){
+    let fanchor = document.getElementById("fanchor");
+    event.preventDefault();
+    fanchor.textContent =  'Click Done'
+}
+let fanchor = document.getElementById("fanchor");
+fanchor.addEventListener('click', anchorTag);
 
 
 
