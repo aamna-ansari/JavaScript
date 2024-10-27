@@ -39,6 +39,8 @@ function clickMe(){
 let myPara = document.getElementById('myPara')
 
 myPara.addEventListener("click", clickMe)
+// FOR REMOVE 
+// myPara.removeEventListener("click", clickMe)
 
 
 
