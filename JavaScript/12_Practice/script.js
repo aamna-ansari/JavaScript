@@ -60,9 +60,16 @@
 
 let paras = document.querySelectorAll('p');
 
-for(let i = 0; i < paras.length; i++){
-    let para = paras[i];
-    para.addEventListener('click', function(){
-        console.log('You have clicked on Paragraph #' + (i + 1));
-    });
+// for(let i = 0; i < paras.length; i++){
+//     let para = paras[i];
+//     para.addEventListener('click', function(){
+//         console.log('You have clicked on Paragraph #' + (i + 1));
+//     });
+// }
+
+function addPara(event){
+    alert('You Have Clicked on' + event.target.textContent)
 }
+let myDiv = document.getElementById('wrapper');
+
+document.addEventListener('click' , addPara)
