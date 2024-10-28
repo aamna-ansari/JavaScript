@@ -112,3 +112,11 @@ pro1
 .catch(error => {
   console.error(error);
 });
+
+
+
+// Promise + Asyc Function + await 
+
+async function myData() {
+  
+}
