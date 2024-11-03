@@ -128,7 +128,9 @@
 #### 01_project1
 - **Name:** Color Switcher
 - **Description:** Implement a color switcher that allows users to change the background color dynamically.
-- **View**: 
+
+---
+
 
 #### 02_project2
 - **Name:** BMI Calculator
@@ -137,12 +139,16 @@
   <img src="./JavaScript/07_projects/02_project2/BMICalculator.gif" alt="BMICalculator">
 </p>
 
+---
+
 #### 03_project3
 - **Name:** Digital Clock
 - **Description:** Create a digital clock that displays the current time and updates in real-time.
 <p align="center">
   <img src="./JavaScript/07_projects/03_project3/timer.gif" alt="DigitalCalculator">
 </p>
+
+---
 
 #### 04_project4
 - **Name:** Number Guessing Game
@@ -151,6 +157,8 @@
   <img src="./JavaScript/07_projects/04_project4/guessNumber.gif" alt="GuessNumber">
 </p>
 
+---
+
 #### 05_project5
 - **Name:** Background Color Changer
 - **Description:** Implement a feature where clicking a "Start" button changes the background color of the body each time.
@@ -158,12 +166,15 @@
   <img src="./JavaScript/07_projects/05_project5/BgColorchangeTime.gif" alt="BgTimer">
 </p>
 
+---
+
 #### 06_project6
 - **Name:** Key Magic
 - **Description:** Create a project that prints the name and key code of a pressed key when any key is pressed on the keyboard.
 <p align="center">
   <img src="./JavaScript/07_projects/06_project6/Capture.PNG" alt="KeyMagic">
 </p>
+
 ---
 
 ### 08_events
