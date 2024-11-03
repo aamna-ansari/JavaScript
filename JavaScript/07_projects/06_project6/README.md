@@ -1,3 +1,3 @@
 <p align="center">
-  <img src="./Capture.PNG" alt="KeyMagic">
+  <img src="./Capture.PNG" alt="keyMagic">
 </p>
