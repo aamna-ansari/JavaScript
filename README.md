@@ -1,8 +1,6 @@
 # JavaScript
 # A Coding Practice Repository
 
-Welcome to Chai-Aur-JavaScript, a coding practice repository designed to enhance your JavaScript skills. This repository is inspired by the work of [@Hitesh_Choudhary](https://github.com/hiteshchoudhary), providing a structured and hands-on approach to learning JavaScript fundamentals.
-
 ## Folder Structure
 
 ### 01_basics
@@ -130,26 +128,42 @@ Welcome to Chai-Aur-JavaScript, a coding practice repository designed to enhance
 #### 01_project1
 - **Name:** Color Switcher
 - **Description:** Implement a color switcher that allows users to change the background color dynamically.
+- **View**: 
 
 #### 02_project2
 - **Name:** BMI Calculator
 - **Description:** Develop a BMI (Body Mass Index) calculator to help users calculate their BMI based on input height and weight.
+<p align="center">
+  <img src="./JavaScript/07_projects/02_project2/BMICalculator.gif" alt="BMICalculator">
+</p>
 
 #### 03_project3
 - **Name:** Digital Clock
 - **Description:** Create a digital clock that displays the current time and updates in real-time.
+<p align="center">
+  <img src="./JavaScript/07_projects/03_project3/timer.gif" alt="DigitalCalculator">
+</p>
 
 #### 04_project4
 - **Name:** Number Guessing Game
 - **Description:** Build a number guessing game where users try to guess a randomly generated number within a specified range.
+<p align="center">
+  <img src="./JavaScript/07_projects/04_project4/guessNumber.gif" alt="GuessNumber">
+</p>
 
 #### 05_project5
 - **Name:** Background Color Changer
 - **Description:** Implement a feature where clicking a "Start" button changes the background color of the body each time.
+<p align="center">
+  <img src="./JavaScript/07_projects/05_project5/BgColorchangeTime.gif" alt="BgTimer">
+</p>
 
 #### 06_project6
 - **Name:** Key Magic
 - **Description:** Create a project that prints the name and key code of a pressed key when any key is pressed on the keyboard.
+<p align="center">
+  <img src="./JavaScript/07_projects/06_project6/Capture.PNG" alt="KeyMagic">
+</p>
 ---
 
 ### 08_events
