@@ -1,3 +1,3 @@
 <p align="center">
-  <img src="./timer.gif"alt="See Result">
+  <img src="./timer.gif"alt="Timer">
 </p>

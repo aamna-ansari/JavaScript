@@ -1,3 +1,3 @@
 <p align="center">
-  <img src="./guessNumber.gif" alt="See Result">
+  <img src="./guessNumber.gif" alt="GuessNumber">
 </p>

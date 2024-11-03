@@ -1,3 +1,3 @@
 <p align="center">
-  <img src="./BMICalculator.gif" alt="See Result">
+  <img src="./BMICalculator.gif" alt="BMICalculator">
 </p>
