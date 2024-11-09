@@ -257,6 +257,8 @@
 - **Description:** Usage of static properties in classes.
 ---
 
+### 12_localStorage
+
 ## Getting Started
 
 To make the most out of this repository, follow these steps:
