@@ -259,6 +259,8 @@
 
 ### 12_localStorage
 
+---
+
 ## Getting Started
 
 To make the most out of this repository, follow these steps:
