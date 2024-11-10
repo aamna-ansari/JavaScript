@@ -13,12 +13,15 @@
 <body>
   <h1 class="display-4 text-center text-danger" style="font-weight: bold">Local Storage Sample</h1>
 <hr/>
-  <div class="container">
+  <div class="container ">
     <div class="row">
       <!-- First Column: Label + Input -->
       <div class="col-md-4" >
         <label for="add-item"  class="m-2">Add Item to local storage</label><br>
-        <input type="text" class="form-control rounded" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+        <div class="d-flex align-items-center">
+          <input type="text" class="form-control me-2" placeholder="Type Anything You Want">
+          <button class="btn btn-danger rounded-end" type="button" id="button-addon2">Save</button>
+        </div>
         <p class="mt-5 ">Value Read from local storage</p>
         <p class="mt-2 ">🤨</p>
       
