@@ -22,26 +22,23 @@
 
           <input type="text" id="inputField" class="form-control me-2" placeholder="Type Anything You Want">
           <button onclick= "hanldleCreate()" class="btn btn-danger rounded-end" type="button" id="button-addon2">Save</button>
-        </div>
-        <p class="mt-5 ">Value Read from local storage</p>
-        <p class="mt-2 ">🤨</p>
-        
+        </div>  
       </div>
 
       <!-- Second Column: Label + Button -->
       <div class="col-md-4" >
-        <label for="remove-item"  class="m-2">Remove item from local storage</label><br>
-        <button onclick="handleRead()" class="btn btn-danger rounded" type="button" id="button-addon2">Remove</button>
-        <p class="mt-5 ">Items in local storage</p>
-        <p class="mt-2 ">🤨</p>
+        <label for="remove-item"  class="m-2">Click me to read value from local storage</label><br>
+        <button onclick="handleRead()" class="btn btn-danger rounded" type="button" id="button-addon2">Read</button>
+        <p class="mt-4 " >Value Read from local storage</p>
+        <p class="mt-2 " id="dataRead">🤨</p>
       </div>
 
       <!-- Third Column: Label + Button -->
       <div class="col-md-4" >
         <label for="clear-local-storage"  class="m-2 ">Clear Local Storage</label> <br>
-        <button class="btn btn-danger rounded" type="button" id="button-addon2">Clear All</button>
-        <p class="mt-5 ">Item exist in local storage</p>
-        <p class="mt-2 ">🤨</p>
+        <button onclick="handleDelete()" class="btn btn-danger rounded" type="button" id="button-addon2">Clear All</button>
+        <p class="mt-4 ">Item exist in local storage</p>
+        <p class="mt-2 " id="itemCount">🤨</p>
       </div>
     </div>
   </div>
