@@ -259,6 +259,10 @@
 
 ### 12_localStorage
 
+<p align="center">
+  <img src="./JavaScript/12_LocalStorage/localStorage.gif" alt="LocalStorage">
+</p>
+
 ---
 
 ## Getting Started
