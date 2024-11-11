@@ -10,22 +10,23 @@ let hanldleCreate = ()=> {
     
     
     localStorage.setItem("users", JSON.stringify(users)); //return string
+    document.getElementById('inputField').value = '';
 
 }
-let handleRead = ()=>{
-    let dataRead = document.getElementById('dataRead')
-    let readData = JSON.parse(localStorage.getItem('users')) || [];
-    dataRead.innerHTML = readData.join(', '); 
-
+let handleRead = () => {
+    let dataRead = document.getElementById('dataRead');
     let itemCount = document.getElementById('itemCount');
-    let countItem = localStorage.length
-    itemCount.innerHTML = countItem
 
-}
+    const users = JSON.parse(localStorage.getItem('users')) || [];
+    dataRead.innerHTML = users.join(', ');
+    itemCount.innerHTML = users.length;
+};
+
 
 
 let handleDelete = ()=>{
-    localStorage.removeItem('users')
+    localStorage.removeItem('users');
+    document.getElementById('dataRead').innerHTML = '👽';
+    document.getElementById('itemCount').innerHTML = '👽';
     
-
 }
