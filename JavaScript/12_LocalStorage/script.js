@@ -3,12 +3,12 @@
 let hanldleCreate = ()=> {
     let user = document.getElementById('inputField').value;
     const users = JSON.parse(localStorage.getItem('users')) || [];
-    users.push('user',user)
+    users.push(user)    //[].push(inputfield data)
 
-    // localStorage.setItem("user", user); //return string
+    // localStorage.setItem("user", user); //return Array 
     
     
-    localStorage.setItem("users", JSON.stringify(users)); //return Array 
+    localStorage.setItem("users", JSON.stringify(users)); //return string
 
 }
 let handleRead = ()=>{
