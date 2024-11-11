@@ -4,33 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-
+                          <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Title -->
     <title>Local Storage</title>
-</head>
+  </head>
 <body>
   <h1 class="display-4 text-center text-danger" style="font-weight: bold">Local Storage Sample</h1>
 <hr/>
-  <div class="container ">
-    <div class="row">
-      <!-- First Column: Label + Input -->
-      <div class="col-md-4" >
+<div class="container ">
+  <div class="row">
+    <!-- First Column: Label + Input -->
+    <div class="col-md-4" >
         <label for="add-item"  class="m-2">Add Item to local storage</label><br>
         <div class="d-flex align-items-center">
+
           <input type="text" id="inputField" class="form-control me-2" placeholder="Type Anything You Want">
-          <button class="btn btn-danger rounded-end" type="button" id="button-addon2">Save</button>
+          <button onclick= "hanldleCreate()" class="btn btn-danger rounded-end" type="button" id="button-addon2">Save</button>
         </div>
         <p class="mt-5 ">Value Read from local storage</p>
         <p class="mt-2 ">🤨</p>
-      
+        
       </div>
 
       <!-- Second Column: Label + Button -->
       <div class="col-md-4" >
         <label for="remove-item"  class="m-2">Remove item from local storage</label><br>
-        <button class="btn btn-danger rounded" type="button" id="button-addon2">Remove</button>
+        <button onclick="handleRead()" class="btn btn-danger rounded" type="button" id="button-addon2">Remove</button>
         <p class="mt-5 ">Items in local storage</p>
         <p class="mt-2 ">🤨</p>
       </div>
@@ -48,4 +49,5 @@
 
 
 <script src="./script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" ></script>
 </html>
