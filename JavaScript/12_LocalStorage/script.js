@@ -12,7 +12,7 @@ let hanldleCreate = ()=> {
     localStorage.setItem("users", JSON.stringify(users)); //return string
     document.getElementById('inputField').value = '';
 
-}
+} 
 let handleRead = () => {
     let dataRead = document.getElementById('dataRead');
     let itemCount = document.getElementById('itemCount');
